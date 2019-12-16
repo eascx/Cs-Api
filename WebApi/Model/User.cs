@@ -15,9 +15,10 @@ namespace Model
     }
     public enum UserPram
     {
-        IS_ROOT = 1,
-        IS_ACTIVATION = 1 << 1,
-        IS_BANDE = 1 << 2,
-        IS_EDITOR = 1 << 3
+        IS_CREATE=1,
+        IS_ROOT = 1<<1,
+        IS_ACTIVATION = 1 << 2,
+        IS_BANDE = 1 << 3,
+        IS_EDITOR = 1 << 4
     }
 }
